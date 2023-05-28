@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url("Fonts/TTLakes-Regular.eot");
+  src: url("Fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/TTLakes-Regular.woff") format("woff"),
+    url("Fonts/TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url("Fonts/TTLakes-Bold.eot");
+  src: url("Fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/TTLakes-Bold.woff") format("woff"),
+    url("Fonts/TTLakes-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url("Fonts/TTLakes-Medium.eot");
+  src: url("Fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Fonts/TTLakes-Medium.woff") format("woff"),
+    url("Fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (min-width: 320px) {
+  .swiper {
+    width: 600px;
+    height: 300px;
+  }
+}
