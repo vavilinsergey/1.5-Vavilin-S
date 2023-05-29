@@ -32,8 +32,7 @@ const enableSwiper = function () {
   mySwiper = new Swiper(".swiper", {
     direction: "horizontal",
     loop: true,
-    spacebetween: 20, //вот это почему-то не работает!!!!!!!!!<--------------------------------------------
-    // slidesPerView: auto,
+    spaceBetween: 16, //вот это почему-то не работает!!!!!!!!!<--------------------------------------------
     // If we need pagination
     pagination: {
       el: ".swiper-pagination",
