@@ -32,10 +32,17 @@ const enableSwiper = function () {
   mySwiper = new Swiper(".swiper", {
     direction: "horizontal",
     loop: true,
-    spaceBetween: 16, //вот это почему-то не работает!!!!!!!!!<--------------------------------------------
+    spaceBetween: 16,
+	slidesPerView: 'auto',
     // If we need pagination
     pagination: {
-      el: ".swiper-pagination",
+        el: ".swiper-pagination",
+    	clickable: true,
+	    bulletClass: 'swiper-pagination-bullet',
+    	bulletActiveClass: 'swiper-pagination-bullet-active',
+    	renderBullet: function (index, className) {
+      		return '<span class="' + className + '"></span>';
+    	},
     },
   });
 };
